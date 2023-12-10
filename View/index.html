@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+        <div style="background-color: silver; padding: 2rem 1rem;"> 
+        <label for="upfile" style="color: white;">Upload file</label>
+        <form action="/api/fileanalyse" method="post" enctype="multipart/form-data">
+        <input type="file" name="upfile" style="color: white;" id="upfile">
+        <button type="submit" style="margin: 2rem 0; padding: .5rem 3rem;">Upload</button>
+        </form>
+    </div>
+    </div>
+</body>
+</html>
